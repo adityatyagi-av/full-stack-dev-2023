@@ -26,9 +26,9 @@ function App() {
       ))}
 
       <div style={{ clear: 'both' }}>
-        {/* <PlayButton message="play-msg" onPlay={()=>console.log('Play')} onPause={()=>console.log('Pause')}>Play</PlayButton> */}
+        <PlayButton message="play-msg" onPlay={()=>console.log('Play')} onPause={()=>console.log('Pause')}>Play</PlayButton>
 
-        {/* <PlayButton message="pause-msg" onSmash={()=>alert('Playyy')}>Pause</PlayButton> */}
+        <PlayButton message="pause-msg" onSmash={()=>alert('Playyy')}>Pause</PlayButton>
       </div>
     </div>
   );
